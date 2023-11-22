@@ -1,0 +1,60 @@
+container{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+@media (min-width: 992px) {
+  .col-lg-3{
+      flex-basis: 25%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .col-md-6{
+      flex-basis: 50%;
+  }
+}
+ 
+@media (max-width: 768px) {
+  .col-sm-12{
+      flex-basis: 100%;
+  }
+}
+
+.flex-item{
+  text-align: center;
+  margin-bottom: 10px;
+}
+a.link1:link{
+  color:violet;
+}
+a.link1:visited{
+  color:lightcoral;
+}
+a.link2:link{
+  color:blue;
+}
+a.link2:visited{
+  color:orange;
+}
+a.link3:link{
+  color:yellow;
+}
+a.link3:visited{
+  color:red;
+}
+a.link4:link{
+  color:darkcyan;
+}
+a.link4:visited{
+  color:pink;
+}
+h1{
+  text-align: center;
+  font-size: 24px;
+}
+body > p{
+  font-size: 1.2em;
+}
